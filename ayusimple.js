@@ -7,7 +7,7 @@ var q2Json = JSON.stringify(q2);
 
 var qObjArray = [q1,q2];
 
-//window.onload = init;
+window.onload = init;
 
 function init() {
     //getDoshaData();
