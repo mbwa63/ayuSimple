@@ -1,49 +1,353 @@
+
+
 [{   
+    "id": 1,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "My physique is thin - I don't gain weight easily."
+    "qText": "My physique is thin - I don't gain weight easily.",
+    "answer": 0
 },
  {
+     "id": 2,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "I am quick and active. "    
+    "qText": "I am quick and active. ", 
+     "answer": 0
  },
 {   
+    "id": 3,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "My skin is usually dry, more so in winter."
+    "qText": "My skin is usually dry, more so in winter.",
+    "answer": 0
 },
 {   
+    "id": 4,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "My hands and feet are usually cold."
+    "qText": "My hands and feet are usually cold.",
+    "answer": 0
 }, 
 {   
+    "id": 5,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "My energy fluctuates and comes in bursts."
+    "qText": "My energy fluctuates and comes in bursts.",
+    "answer": 0
 }, 
 {   
+    "id": 6,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "I usually develop gas or constipation."
+    "qText": "I usually develop gas or constipation.",
+    "answer": 0
 }, 
 {   
+    "id": 7,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "I usually have difficulty falling asleep or having a sound night's sleep. "
+    "qText": "I usually have difficulty falling asleep or having a sound night's sleep. ",
+    "answer": 0
 },
 {   
+    "id": 8,
     "type": "Vata",
     "heading": "Physical Attributes",
-    "s-type": "number",
-    "html": "I am uncomfortable in cold weather."
+    "qText": "I am uncomfortable in cold weather.",
+    "answer": 0
+}, 
+{   
+    "id": 9,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "My nature is lively and enthusiastic.",
+    "answer": 0
+},
+{   
+    "id": 10,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I have difficulty memorizing things and remembering them later.",
+    "answer": 0
+}, 
+{   
+    "id": 11,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "It is easy for me to learn new things quickly, but I also forget quickly. ",
+    "answer": 0
+}, 
+{   
+    "id": 12,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am not good at making decisions.",
+    "answer": 0
+}, 
+{   
+    "id": 13,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am anxious or worrisome by nature.",
+    "answer": 0
+}, 
+{   
+    "id": 14,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "People think I'm talkative and that I talk quickly.",
+    "answer": 0
+}, 
+{   
+    "id": 15,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am usually emotional by nature and my moods fluctuate.",
+    "answer": 0
+}, 
+{   
+    "id": 16,
+    "type": "Vata",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "My mind is restless, but also imaginative.",
+    "answer": 0
+}, 
+{   
+    "id": 17,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "My hair is fine, straight, light, blonde, red, graying early, or balding. ",
+    "answer": 0
+}, 
+{   
+    "id": 18,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "I don't tolerate hot weather. ",
+    "answer": 0
+},
+{   
+    "id": 19,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "I sweat easily.",
+    "answer": 0
+}, 
+{   
+    "id": 20,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "I can't tolerate delaying or skipping a meal.",
+    "answer": 0
+}, 
+{   
+    "id": 21,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "My appetite is very good and I can eat big meals.",
+    "answer": 0
+}, 
+{   
+    "id": 22,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "My bowel movements are regular. I might have occasional loose stool but not much constipation.",
+    "answer": 0
+},
+{   
+    "id": 23,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "I like cold drinks and such foods as ice cream. ",
+    "answer": 0
+}, 
+{   
+    "id": 24,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "I often feel hot.",
+    "answer": 0
+}, 
+{   
+    "id": 25,
+    "type": "Pitta",
+    "heading": "Physical Attributes",
+    "qText": "Spicy, hot foods upset my stomach.",
+    "answer": 0
+}, 
+{   
+    "id": 26,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I consider myself efficient.",
+    "answer": 0
+},
+{   
+    "id": 27,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I try to be organized and accurate.",
+    "answer": 0
+},
+{   
+    "id": 28,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I have a strong will and my friends think I am stubborn.",
+    "answer": 0
+},
+{   
+    "id": 29,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am impatient by nature. ",
+    "answer": 0
+},
+{   
+    "id": 30,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I tend to become irritable or angry quite easily.",
+    "answer": 0
+},
+{   
+    "id": 31,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I try to be meticulous and am a perfectionist by nature. ",
+    "answer": 0
+}, 
+{   
+    "id": 32,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I get angry easily, but I don't hold a grudge.",
+    "answer": 0
+}, 
+{   
+    "id": 33,
+    "type": "Pitta",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am usually critical of myself and others.",
+    "answer": 0
+}, 
+{   
+    "id": 34,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "It is easy for me to gain weight but difficult to lose.",
+    "answer": 0
+},
+{   
+    "id": 35,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "Skipping meals is easy for me and does not cause any problems. ",
+    "answer": 0
+},
+{   
+    "id": 36,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "I tend to have congestion, mucus, or sinus problems.",
+    "answer": 0
+}, 
+{   
+    "id": 37,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "I'm a sound sleeper.",
+    "answer": 0
+},
+{   
+    "id": 38,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "I have thick, oily, dark, wavy hair.",
+    "answer": 0
+}, 
+{   
+    "id": 39,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "My skin is smooth and soft with an almost pale complexion.",
+    "answer": 0
+},
+{   
+    "id": 40,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "My body frame is large and solid with a heavy bone structure.",
+    "answer": 0
+}, 
+{   
+    "id": 41,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "My digestion is slow, so I feel full after eating.",
+    "answer": 0
+},
+{   
+    "id": 42,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "I have a steady energy level with good endurance and strong stamina.",
+    "answer": 0
+},
+{   
+    "id": 43,
+    "type": "Kapha",
+    "heading": "Physical Attributes",
+    "qText": "I'm sensitive to cool and damp weather.",
+    "answer": 0
+}, 
+{   
+    "id": 44,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I tend to be slow, methodical, and relaxed.",
+    "answer": 0
+},
+{   
+    "id": 45,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I need to sleep a minimum of eight hours to feel well the next morning.",
+    "answer": 0
+},
+{   
+    "id": 46,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "By nature I am calm and composed. I don't get angry easily.",
+    "answer": 0
+}, 
+{   
+    "id": 47,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am not a quick learner but I am good at memorizing things and remembering them later.",
+    "answer": 0
+},
+{   
+    "id": 48,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "Many people consider me affectionate, forgiving, and peaceful.",
+    "answer": 0
+},
+{   
+    "id": 49,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I usually oversleep and have difficulty waking up the next morning.",
+    "answer": 0
+},
+{   
+    "id": 50,
+    "type": "Kapha",
+    "heading": "Mental, Emotional and Behavioral Attributes",
+    "qText": "I am very reluctant to take on new responsibilities.",
+    "answer": 0
 } 
 ]
