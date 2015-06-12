@@ -1,29 +1,30 @@
-function createCanvasElement(){
-    var dCanvas = document.createElement("canvas");
-    dCanvas.setAttribute("id", "barGraph");
-    cnvs.appendChild(dCanvas);
-    //createGraph();
-}
-/*
-function createGraph() {
-    var cxt = document.getElementById("barGraph").getContext("2d");
-                        
-    var graph = new BarGraph(cxt);
+var graph;
+function createCanvas(divName) {
+			
+    var div = document.getElementById(divName);
+    var canvas = document.createElement('canvas');
+    div.appendChild(canvas);
+    if (typeof G_vmlCanvasManager != 'undefined') {
+        canvas = G_vmlCanvasManager.initElement(canvas);
+    }	
+    var ctx = canvas.getContext("2d");
+    //return ctx;
+    
+    graph = new BarGraph(ctx);
+    graph.maxValue = 100;
     graph.margin = 2;
-    graph.width = 450;
-    graph.height = 150;
+    graph.colors = ["#49a0d8", "#d353a0", "#ffc527"];
     graph.xAxisLabelArr = ["Vata", "Pitta", "Kapha"];
-    graph.update([3, 5, 3]);   
+   // setInterval(function () {
+        graph.update([0, 0, 0]);
+   // }, 1000); 
+     
 }
 
-function BarGraph(ctx) {
+function updateDoshaGraph(v,p,k) {
+    graph.update([v, p, k]);
+}
 
-  // Private properties and methods
-	
-  var that = this;
-  var startArr;
-  var endArr;
-  var looping = false;
 		
-}
-*/
+
+            

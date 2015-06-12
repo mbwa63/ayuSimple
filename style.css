@@ -1,13 +1,56 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif, Eurostile;
+	background-color: #f9f2e1;
+	width: 980px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	height:600px;
+	height:100%;
+}
+
 .qList{
     list-style: none;
     background-color: lightGrey;
 }
+
+.listItemV {
+    background-color: blue;
+    font-color: blue;
+}
 #dq{
- width: 50%   
+    width: 50%;
+    padding-top: 10px;
+    float: left;
+    height: 400px;
+     overflow-y: scroll;
+
 }
 #cnvs{
+    padding-top: 10px;
     width: 50%;
-    float: right
+    float: right;
+    height: 400px;
+    font-size: 50px;
 }
+.inputLabel {
+    font-size: 12px;
+}
+nav {
+    background: url("assets/aysim_header.png") no-repeat; 
+	height: 220px;
+    width:100%;
+    display:inline;
+    float:left;
+    text-align:center;
+}
+nav li { top:155px; position:relative; border:none; display:inline-block; margin-top: 6px;}
+nav a { color: #ffffff; font-family: "Eurostile"; font-weight: 500; font-size: 22px; padding: 15px 60px; text-decoration:none;}
+nav ul{ margin: 20px 0px 0px 0px; position: relative; display:inline; border:none; }
+
+.selected {
+    color:#d4de6a;
+}
+
 
     
